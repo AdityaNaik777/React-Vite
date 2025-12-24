@@ -1,11 +1,11 @@
 ````md
-# 🚀 React Mini Projects & Programs
+# React Mini Projects & Programs
 
 This repository contains a collection of **simple React mini projects and practice programs** built to strengthen my understanding of **React fundamentals**, component-based architecture, and modern frontend development.
 
 ---
 
-## 📌 Purpose of This Repository
+## Purpose of This Repository
 
 - Practice **core React concepts**
 - Build small, reusable UI components
@@ -15,7 +15,7 @@ This repository contains a collection of **simple React mini projects and practi
 
 ---
 
-## 🧠 Concepts Covered
+## Concepts Covered
 
 - JSX & Component Structure
 - Props & State
@@ -111,13 +111,13 @@ Through these projects, I aim to:
 
 ---
 
-## 🙌 Acknowledgement
+## Acknowledgement
 
 Built as part of my **React learning journey** and continuous improvement in frontend development.
 
 ---
 
-## ⭐ Support
+## Support
 
 If you find this repository helpful:
 
