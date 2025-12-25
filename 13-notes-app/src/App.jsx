@@ -28,7 +28,7 @@ const App = () => {
         }}
         className="items-start flex flex-col gap-5 p-10 lg:w-1/2"
       >
-        <h1 className="text-4xl font-bold">Add Notes</h1> for heading
+        <h1 className="text-4xl font-bold">Add Notes</h1>
         {/* first input */}
         <input
           type="text"
