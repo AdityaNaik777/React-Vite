@@ -1,0 +1,35 @@
+1)come to root folder (reactjs)
+2)npm create vite@latest
+3)Project Name: XYZ
+4)Framework: reactjs
+5)Variant: JS
+6)go to new project folder
+7)npm i
+8)npm install -D tailwindcss postcss autoprefixer
+9)npx tailwindcss init -p
+10)Change the content of tailwindcss.config.js to 
+    content:[
+      "./index.html",
+      "./src/**/*.{js,ts,jsx,tsx}",
+    ],
+11)Put these into index.css (inside src)
+    @tailwindcss base;
+    @tailwindcss components;
+    @tailwindcss utilities;
+12)Goto App.jsx
+    In the return section delete all the code presemt inside the <></> and write <h1>Hello</h1>
+13)Goto CLI and write 
+    npm run dev
+
+Corrections 
+install tailwindcss, tailwindcss/postcss, postcss
+npm install tailwindcss @tailwindcss/postcss postcss
+Update your postcss.config.js file
+export default {
+  plugins: {
+    "@tailwindcss/postcss": {},
+  }
+}
+Add this in your main CSSS file
+@import "tailwindcss";
+Remove autofixer as its being handled automatically.

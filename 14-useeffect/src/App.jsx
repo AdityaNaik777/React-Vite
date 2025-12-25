@@ -39,13 +39,13 @@ function App() {
       <div>
         <button
           onClick={num1Change}
-          class="ml-25 border-2 bg-green-950 text-white rounded p-2 m-5 active:scale-110 rounded-2xl"
+          class="ml-25 border-2 bg-green-950 text-white p-2 m-5 active:scale-110 rounded-2xl"
         >
           Increase
         </button>
         <button
           onClick={num2Change}
-          class="ml-38 border-2 bg-green-950 text-white rounded p-2 m-5 active:scale-90 rounded-2xl"
+          class="ml-38 border-2 bg-green-950 text-white p-2 m-5 active:scale-90 rounded-2xl"
         >
           Decrease
         </button>
