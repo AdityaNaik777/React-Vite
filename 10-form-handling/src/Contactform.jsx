@@ -1,18 +1,11 @@
 import React, { useState } from "react";
 
- const ContactForm = () => {
+const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -36,8 +29,6 @@ import React, { useState } from "react";
           <input
             type="text"
             name="name"
-            value={formData.name}
-            onChange={handleChange}
             required
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Enter your name"
@@ -50,8 +41,6 @@ import React, { useState } from "react";
           <input
             type="email"
             name="email"
-            value={formData.email}
-            onChange={handleChange}
             required
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Enter your email"
@@ -63,8 +52,6 @@ import React, { useState } from "react";
           <label className="block text-gray-600 mb-1">Message</label>
           <textarea
             name="message"
-            value={formData.message}
-            onChange={handleChange}
             rows="4"
             required
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
