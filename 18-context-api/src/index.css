@@ -1,0 +1,28 @@
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.nav{
+  display: flex;
+  background-color: lightgreen;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.nav2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:30px;
+}
+
+.nav2.light{
+  background-color: rgb(133, 225, 112);
+}
+
+.nav2.dark{
+  background-color: rgb(7, 64, 2);
+}
